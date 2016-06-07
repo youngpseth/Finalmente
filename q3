@@ -1,0 +1,51 @@
+333333333
+
+A.  Explain how digital signature works with public/private keypairs.
+
+B.  Identify your favorite Java project this semester.  
+    Describe two things you learned by doing the project.
+    Describe two ways in which the project could be improved or expanded.
+    
+C.  Describe two advantages of object-oriented programming.
+    Describe two disadvantages of object-oriented programming.
+    
+D.  Consider the following PYTHON code for the MNode class given below.
+    What is the difference in the way Python and Java handle the declaration of datatypes?
+    Explain the difference in how constructors are written in Python vs Java.
+    Which language do you prefer?  Explain why.
+-------------------------------------------------------------------------------------
+    import hashlib
+
+class MNode:
+
+    pay=0
+    left=0
+    right=0
+
+    def __init__(self, pay, left, right):
+        self.pay=pay
+        self.left=left
+        self.right=right
+
+    def merge(self, other):
+        hashe=hashlib.sha256(self.pay+other.pay).hexdigest()
+        return MNode(hashe,this,other)
+
+    def getI(self, i):
+        read=self
+        bi=bin(i)[2:]
+        for x in range(1, len(bi)):
+            if bi[x]=='0':
+                if read.left==0:
+                    return 0
+                else:
+                    read=read.left
+        
+            else:
+                if read.right==0:
+                    return 0
+                else:
+                    read=read.right
+        
+        return read
+-----------------------------------------------------------------------------

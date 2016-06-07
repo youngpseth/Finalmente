@@ -49,3 +49,23 @@ class MNode:
         
         return read
 -----------------------------------------------------------------------------
+A. The Public and Private key pair comprise of two uniquely related cryptographic keys (basically long random numbers)
+   The Public Key is what its name suggests - Public. It is made available to everyone via a publicly accessible repository or directory. 
+   On the other hand, the Private Key must remain confidential to its respective owner.
+   Because the key pair is mathematically related, whatever is encrypted with a Public Key may only be decrypted by its corresponding Private Key and vice versa.
+B. My favourite Java project this semester was the signature project becasue I think it is interesting and it shows more what we
+   can do with Java. The two things I learned:
+   - You will need the Private key for the document
+   - The security of the files that we can use with these keys.
+   Two ways the project could improve:
+   - More complicated way to log in with the private key because there could be people that can break without the private key.
+   - Better encryption methods.
+C. Advantages:
+   - Code Reuse and Recycling: Objects created for Object Oriented Programs can easily be reused in other programs.
+   - Design Benefits: Large programs are very difficult to write. Object Oriented Programs force designers to go through an extensive planning phase,
+   which makes for better designs with less flaws.
+   Disadvantages:
+   -Effort: Object Oriented programs require a lot of work to create
+   -Speed: Object Oriented programs are slower than other programs, partially because of their size.
+D. Phyton is compact and easier with less work to do. Java is more powerful than Phyton.
+   I prefer Java it is more work but you could do more in Java than Phython.

@@ -12,3 +12,26 @@ D.  Explain what a Merkle Tree is.
     What is the Merkle root?
     What is the function of a certificate in this data structure?
     
+A. Recursion is a basic programming technique you can use in Java, in which a method calls itself to solve some problem.
+   One of the classic problems for introducing recursion is calculating the factorial of an integer.
+   The method will call itself, and it will execute the code inside, which is to call itself, 
+    so it will execute the code inside of that method, which is to call itself, so it will execute that code.
+B. A stack is defined as a list or sequence of elements that is lengthened by placing new elements "on top" 
+   of existing elements and shortened by removing elements from the top of existing elements.  
+   A queue is a sequence of elements that is added to by placing the new element at the rear of 
+   existing and shortened by removing elements in front of queue.
+C. private static class Node<AnyType>
+{
+   private AnyType data;
+   private Node<AnyType> next;
+
+   public Node(AnyType data, Node<AnyType> next)
+   {
+      this.data = data;
+      this.next = next;
+   }
+} 
+D. Merkle tree is a tree in which every non-leaf node is labelled with the hash of the labels or values (in case of leaves) of its child nodes.
+   Hash trees can be used to verify any kind of data stored, handled and transferred in and between computers. 
+   Currently the main use of hash trees is to make sure that data blocks received from other peers in a peer-to-peer network are received undamaged and unaltered, 
+   and even to check that the other peers do not lie and send fake blocks.

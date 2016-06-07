@@ -1,0 +1,22 @@
+Welcome to the final.  Each question is in a seperate file.  Answer all questions.
+
+11111111111111
+Consider the following Java class.
+
+public class Wizard{
+
+  Spell[] spells;
+  Potion[] potions;
+  String name;
+  int points=0;
+  
+  public Wizard(String name){
+    this.name = name;}
+    
+}
+
+A.  Write a method for the Wizard class named "powerUp" that adds 10 to the field "points".
+B.  Write a method "cast(int n)" that casts the n-th element of the "spells" array.  
+    Include an interface (seperately) for the Spell class to insure your "cast" method will interact with the class.
+C.  Write a "hello" method that prints an introduction which states the name of the Wizard.
+D.  Write a main method for the Wizard class.  In it construct a wizard with name "Harry Poppins".  Use the hello() method.

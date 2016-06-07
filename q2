@@ -1,0 +1,14 @@
+2222222222222
+
+A.  Explain what recursion is and when it is useful.
+    Explain what the |termination step| and |recursion step| are in a recursive method.
+
+B.  Describe the difference between a Queue and a Stack.
+
+C.  Write a class for an element doublely-linked list.
+
+D.  Explain what a Merkle Tree is.  
+    Describe the structure and purpose of a Merkle Tree.
+    What is the Merkle root?
+    What is the function of a certificate in this data structure?
+    
